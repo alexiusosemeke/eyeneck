@@ -1,0 +1,19 @@
+{
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  // Default frontend formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  // Target Python specifically
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "always"
+    }
+  },
+  "python.analysis.autoImportCompletions": true,
+  "js/ts.preferences.quoteStyle": "single"
+}
+
+// {
+//     "python.analysis.autoImportCompletions": true
+// }
